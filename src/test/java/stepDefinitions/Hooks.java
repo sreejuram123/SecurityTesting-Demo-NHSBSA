@@ -19,7 +19,7 @@ public class Hooks {
 
     @After
     public static void tearDown(Scenario scenario) throws IOException, ClientApiException {
-            generateZapReport();
+        generateZapReport();
         Driver.quitDriver();
     }
 
