@@ -4,9 +4,9 @@
  Running Tests :
 
     1 Chrome
-      mvn test -Dcucumber.options="src/test/resources/features/NHSCostChecker.feature" -Dbrowser=chrome 
+      mvn test -Dcucumber.options="src/test/resources/features" -Dbrowser=chrome 
     2 Firefox
-      mvn test -Dcucumber.options="src/test/resources/features/NHSCostChecker.feature" -Dbrowser=firefox
+      mvn test -Dcucumber.options="src/test/resources/features" -Dbrowser=firefox
 
 
 
