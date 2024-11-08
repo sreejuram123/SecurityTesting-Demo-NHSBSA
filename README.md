@@ -4,9 +4,9 @@
  Running Tests :
 
     1 Chrome
-      mvn test -Dcucumber.options="src/test/resources/features" -Dbrowser=chrome 
+      mvn test -Dcucumber.options="src/test/resources/features/Security.feature" -Dbrowser=chrome 
     2 Firefox
-      mvn test -Dcucumber.options="src/test/resources/features" -Dbrowser=firefox
+      mvn test -Dcucumber.options="src/test/resources/features/Security.feature" -Dbrowser=firefox
 
 
 
